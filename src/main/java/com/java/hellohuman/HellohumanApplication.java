@@ -17,19 +17,7 @@ public class HellohumanApplication {
 	}	
 @RestController 
 	class helloHuman{
-//	@RequestMapping("/")
-//	public String hello() {
-//		return "Hello Human...";
-//	}	
-//
-//	@RequestMapping("/")
-//    public String index(@RequestParam(value="name", required=false) String searchQuery) {
-//		if (searchQuery == null) {
-//			return "Hello Human";	
-//		} else {
-//		return "Hello " + searchQuery;
-//		}
-//	
+
 	@RequestMapping("/")
 	public String index(@RequestParam(value="name", required=false) String name,
 			@RequestParam(value="last_name", required=false) String last_name){
